@@ -1,0 +1,119 @@
+.nav2 {
+  height: 100%;
+  background: black;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+}
+
+.cont-nav2 {
+  width: 100%;
+  max-width: 1140px;
+  height: 100%;
+  padding-bottom: 10px;
+  /* padding-left: 17%; */
+  padding-top: 7%;
+  /* display: grid; */
+  text-align: center;
+  background-image: linear-gradient(
+    to left,
+    #0000005c,
+    #4cae9914,
+    #214e4400,
+    rgb(0 0 0 / 18%)
+  );
+}
+
+.logo-nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.logo-nav2 a {
+}
+
+.logo-nav2 a img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  border: none;
+  width: 228px;
+}
+
+.p-nav2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.p-nav2 p {
+  height: 60px;
+  margin: 0 0 20px;
+  width: 500px;
+  color: var(--primary-p-color);
+}
+
+.icon-nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon-nav2 i {
+  font-size: 20px;
+  color: var(--main-color);
+  transition-duration: 1s;
+  transition: all 0.4s;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-nav2 .fa-brands:hover {
+  color: var(--primary-text-color);
+}
+
+.icon-nav2 .fa-brands:hover {
+  height: 100%;
+  margin-top: -10px;
+}
+
+.continer-nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /* padding-right: 20px; */
+  padding-top: 20px;
+}
+
+.continer-nav2 .ul-nav2 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.continer-nav2 .ul-nav2 ul li a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 16px;
+  padding: 0px 15px 0px 15px;
+  font-weight: 600;
+  line-height: 1.5em;
+  font-family: "Work Sans", Sans-serif;
+  height: 100%;
+  transition-duration: 0.4s;
+}
+.continer-nav2 .ul-nav2 ul li a:hover {
+  color: var(--primary-text-color);
+}

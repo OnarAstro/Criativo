@@ -1,0 +1,222 @@
+.team {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.continer-team {
+  background-image: url(../section1/Bg-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.box-team {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.text-team {
+  margin-left: 11%;
+  margin-right: 9%;
+  margin-top: 7%;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 100%;
+  transition: all 1.3s;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .text-team {
+    text-align: initial;
+  }
+}
+.team-h3 {
+  margin-bottom: -25px;
+}
+
+.team-h3 h3 {
+  font-size: 18px;
+  color: var(--main-color);
+}
+
+.team-h1 {
+  margin: 0 0 -15px;
+}
+
+.team-h1 h1 {
+  font-size: 55px;
+  color: var(--primary-text-color);
+}
+
+.text-team .border-bt {
+  margin: 0 520px;
+  width: 100px;
+  padding-bottom: 25px;
+}
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  .text-team .border-bt {
+    margin-left: 325px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .text-team .border-bt {
+    margin-left: 325px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .text-team .border-bt {
+    margin-left: 200px;
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .text-team .border-bt {
+    margin-left: 0px;
+    margin-right: 0;
+  }
+}
+.team-p {
+  width: 80%;
+  /* padding-bottom: 20px; */
+  margin: 0px 73px 20px;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .team-p {
+    width: 100%;
+    margin: 0;
+  }
+}
+.team-p p {
+  color: var(--primary-p-color);
+  font-size: 16px;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+.big-team {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-left: 11%;
+  margin-right: 9%;
+  /* height: 89%; */
+  gap: 50px;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .big-team {
+    margin-left: 0px;
+    margin-right: 0;
+  }
+}
+.min-team {
+  width: 500px;
+  height: 200px;
+  background: var(--background);
+  display: flex;
+  align-items: self-end;
+  justify-content: space-between;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .min-team {
+    width: 100%;
+    height: 100%;
+  }
+}
+.min-image-team {
+
+}
+
+.min-image-team .image {
+  width: 260px;
+}
+
+.min-image-team .image img {
+  width: 100%;
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
+    hue-rotate(0deg);
+  transition-duration: 1s;
+  vertical-align: middle;
+}
+.min-image-team .image img:hover {
+  filter: none;
+}
+.min-image-team .shaow-team {
+  width: 0px;
+  box-shadow: 134px -95px 35px 44px var(--main-color);
+  bottom: 104px;
+  height: 0px;
+  border-radius: 50%;
+  position: static;
+}
+
+/* ---------------------- */
+/* ---------------------- */
+/* ---------------------- */
+
+.min-text-team {
+  height: 100%;
+  padding: 16px 16px 16px 32px;
+}
+
+.min-text-team .h4-team {
+}
+
+.min-text-team .h4-team h4 {
+  font-size: 24px;
+  color: var(--primary-text-color);
+}
+
+.min-text-team .h4-team p {
+  font-size: 16px;
+  color: var(--main-color);
+}
+
+.min-text-team .p-team {
+  padding-top: 25px;
+}
+
+.min-text-team .p-team p {
+  margin: 0 0 20px;
+  font-size: 16px;
+  color: var(--primary-p-color);
+}
+
+.min-text-team .icon-team {
+  display: flex;
+  align-items: self-start;
+  justify-content: space-between;
+  margin-top: 28px;
+  width: 60%;
+}
+.min-text-team .icon-team .fa-brands {
+  font-size: 16px;
+  color: var(--main-color);
+  transition-duration: 1s;
+  transition: all 0.5s;
+}
+.min-text-team .icon-team .fa-brands:hover {
+  color: var(--primary-text-color);
+}
+
+.icon-team .fa-brands:hover {
+  height: 100%;
+  margin-top: -10px;
+}
+
+@media (max-width: 576px) {
+  .min-image-team {
+    display: none;
+  }
+}

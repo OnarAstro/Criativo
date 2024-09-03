@@ -1,0 +1,83 @@
+.side-view1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* overflow: hidden; */
+}
+.side-img {
+}
+.continer-side-view1 {
+  background-image: url(../navhaed-image/1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.box-side-view1 {
+  width: 100%;
+  background-image: linear-gradient(
+    to left,
+    rgb(0, 0, 0),
+    #5cd2b915,
+    #5cd2b92d
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .box-side-view1 {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .box-side-view1 {
+    flex-wrap: wrap;
+  }
+}
+.box-image-side-view1 {
+  width: 300px;
+  padding: 16px;
+  text-align: center;
+}
+
+.box-image-side-view1 img {
+  width: 75px;
+}
+
+.box-image-side-view1 .text-side-view1 {
+}
+
+.h1-side-view1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.h1-side-view1 h1 {
+  font-size: 55px;
+  color: var(--main-color);
+  margin: 0;
+}
+
+.h1-side-view1 i {
+  font-size: 17px;
+  color: var(--primary-text-color);
+}
+
+.text-side-view1 h5 {
+  font-size: 18px;
+  margin: 8px 0 16px;
+  font-family: sans-serif;
+}
+
+/* ------------------- */
+/* ------------------- */
+/* ------------------- */

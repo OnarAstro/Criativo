@@ -1,0 +1,22 @@
+footer {
+  background: black;
+  width: 100%;
+}
+
+footer .span-footer {
+  padding: 32px 0;
+  margin: 0 109.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  footer .span-footer {
+    margin: 0 8.5px;
+  }
+}
+footer .span-footer span {
+  font-size: 16px;
+  color: var(--primary-p-color);
+  text-align: center;
+}

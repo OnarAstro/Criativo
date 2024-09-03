@@ -1,0 +1,59 @@
+.side-view2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.continer-side-view2 {
+  background-image: url(../navhaed-image/side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.box-side-view2 {
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    #5cd2b915,
+    #5cd2b92d
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .box-side-view2 {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .box-side-view2 {
+    flex-wrap: wrap;
+  }
+}
+.box-image-side-view2 {
+  width: 230px;
+}
+.box-image-side-view2 img {
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
+    hue-rotate(0deg);
+  transition-duration: 1s;
+  width: 200px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.box-image-side-view2 img:hover {
+  filter: none;
+}
